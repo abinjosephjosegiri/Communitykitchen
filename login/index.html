@@ -69,7 +69,7 @@
 							<input type="password" name="comfirm_password" id="comfirm_password_up" class="input-text">
 						</div>
 					</div>
-					<!--
+
 					<div class="form-checkbox">
 						<label class="container">
 							<p>I agree to the <a href="#" class="text">Terms and Conditions</a></p>
@@ -77,10 +77,10 @@
 							<span class="checkmark"></span>
 						</label>
 					</div>
-					-->
+
 					<div class="form-row-last">
 						<br>
-						<button id="bet-register" onclick="reg()">Register</button>
+						<button id="bet-register" type="submit">Register</button>
 					</div>
 				</form>
 			</div>
@@ -164,29 +164,31 @@
 				password: {
 					required: true,
 					minlength: 8,
-					comfirm_password: {
-						equalTo: "#password"
-					}
+				},
+				comfirm_password: {
+					required: true,
+					equalTo: "#password"
 				}
+
 			},
 			messages: {
 				first_name: {
-					required: "Please enter your firstname"
+					required: "Please Enter Your Firstname"
 				},
 				last_name: {
-					required: "Please enter your lastname"
+					required: "Please Enter Your Lastname"
 				},
 				password: {
-					required: "Please provide a password",
-					minlength: "Your password must be at least 8 characters long"
+					required: "Please enter a password",
+					minlength: "Make it 8 characters"
 				},
 				comfirm_password: {
-					required: "Please enter a password",
-					equalTo: "Wrong Password"
+					required: "Please Enter a Password",
+					equalTo: "Passwords Don't Match"
 				},
 
 				email: {
-					required: "Please enter a valid email address",
+					required: "Enter a  Email ",
 					email: "Enter A Valid Email"
 				},
 				submitHandler: function (form) {
