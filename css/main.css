@@ -1,530 +1,582 @@
 .navbar a {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .btn {
-  background-color: black;
+    background-color: black;
 }
 
 .button-row {
-  background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 body {
-  font-family: Montserrat;
-  overflow-x: hidden;
+    font-family: Montserrat;
+    overflow-x: hidden;
+    margin: 0;
+    zoom: 150%;
 }
 
 .container-fluid {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 body {
-  padding: 0px;
-  margin: 0px;
-  background-color: black;
-  font-family: 'Montserrat', ;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family: 'Montserrat', ;
 }
+
 
 /* navigation bar starts */
 
 .navbar {
-  background-color: white;
+    background-color: white;
 }
 
 .nav-link {
-  float: center;
+    float: center;
 }
 
+
 /* navigation bar ends */
+
 
 /* jumptron starts */
 
 .logo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 20vw;
-  max-height: 20vh;
-  padding: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20vw;
+    max-height: 20vh;
+    padding: 12px;
 }
 
 .homesec h2 {
-  text-align: center;
-  font-family: 'Montserrat', ;
-  font-size: 3vw;
-  color: white;
+    text-align: center;
+    font-family: 'Montserrat', ;
+    font-size: 3vw;
+    color: white;
 }
 
 .homesec h5 {
-  text-align: center;
-  font-family: 'Montserrat', ;
-  font-size: 15px;
-  color: white;
+    text-align: center;
+    font-family: 'Montserrat', ;
+    font-size: 15px;
+    color: white;
 }
 
 .homesec a {
-  text-align: center;
-  font-size: 1.8vw;
-  color: black;
+    text-align: center;
+    font-size: 1.8vw;
+    color: black;
 }
 
+
 /* jumptron ends */
+
 
 /* <!-- ABOUT US SECTION STARTS --> */
 
 .vere {
-  background-color: white;
-  color: black;
-  padding: 50px;
+    background-color: white;
+    color: black;
+    padding: 50px;
 }
 
 .vere h1 {
-  padding-top: 20px;
-  text-align: center;
-  font-family: 'Montserrat', ;
-  font-size: 2.3vw;
-  text-decoration: underline;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', ;
+    font-size: 2.3vw;
+    text-decoration: underline;
 }
 
 .vere p {
-  text-align: center;
-  padding: 10px;
-  opacity: 70%;
-  margin: 10px;
-  border: solid;
+    text-align: center;
+    padding: 10px;
+    opacity: 70%;
+    margin: 10px;
+    border: solid;
 }
 
+
 /* <!-- ABOUT US SECTION ends --> */
+
 
 /* help us section starts */
 
 .helpus {
-  background-color: white;
-  color: black;
-  padding: 50px;
+    background-color: white;
+    color: black;
+    padding: 50px;
 }
 
 .helpus h2 {
-  text-align: center;
-  font-family: 'Montserrat', ;
-  font-size: 2.3vw;
-  text-decoration: underline;
+    text-align: center;
+    font-family: 'Montserrat', ;
+    font-size: 2.3vw;
+    text-decoration: underline;
 }
 
 .helpus p {
-  text-align: center;
-  opacity: 70%;
-  padding: 10px;
-  margin: 10px;
-  border: solid;
+    text-align: center;
+    opacity: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: solid;
 }
 
-.vere, .helpus {
-  margin: 10px;
+.vere,
+.helpus {
+    margin: 10px;
 }
+
 
 /* when the screen width is less than 600px */
 
 @media only screen and (max-width: 600px) {
-  .homesec h1 {
-    font-size: 6vw;
-  }
-  .homesec h2 {
-    font-size: 15px;
-  }
-  .homesec h5 {
-    font-size: 14px;
-  }
-  .homesec a {
-    font-size: 3.5vw;
-  }
-  .vere h1 {
-    font-size: 6vw;
-  }
-  .helpus h2 {
-    font-size: 6vw;
-  }
-  .helpus .p, .vare .p {
-    font-size: medium;
-  }
-  .respons {
-    padding: 20px;
-    background-color: whitesmoke;
-  }
+    .homesec h1 {
+        font-size: 6vw;
+    }
+    .homesec h2 {
+        font-size: 15px;
+    }
+    .homesec h5 {
+        font-size: 14px;
+    }
+    .homesec a {
+        font-size: 3.5vw;
+    }
+    .vere h1 {
+        font-size: 6vw;
+    }
+    .helpus h2 {
+        font-size: 6vw;
+    }
+    .helpus .p,
+    .vare .p {
+        font-size: medium;
+    }
+    .respons {
+        padding: 20px;
+        background-color: whitesmoke;
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 .h4 {
-  font-size: 6vw;
+    font-size: 6vw;
 }
-h5
-{
-  text-decoration: bold;
-  color: #000;
+
+h5 {
+    text-decoration: bold;
+    color: #000;
 }
 
 .logo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80px;
-  max-height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .asdf .col {
-  padding: 5px;
-  margin: 0px;
-  background-color: white;
+    padding: 5px;
+    margin: 0px;
+    background-color: white;
 }
 
 #banner {
-  padding: 0em 0 9em 0;
-  background-image: url("../img/banner.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
+    padding: 0em 0 9em 0;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
 }
 
 #banner:before {
-  content: '';
-  background: transparent;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+    content: '';
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 #banner .inner {
-  border-top: 2px solid rgba(255, 255, 255, 0.2);
-  position: relative;
-  z-index: 10005;
-  padding-top: 8em;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 10005;
+    padding-top: 8em;
 }
 
 #banner h1 {
-  font-size: 3.5em;
-  font-weight: 400;
-  color: #fff;
-  line-height: 1em;
-  margin: 0 0 1em 0;
-  padding: 0;
+    font-size: 3.5em;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    padding: 0;
 }
 
 #banner h3 {
-  font-weight: 400;
-  color: #fff;
-  margin: 0;
-  font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    font-size: 1.5em;
 }
 
 #banner p {
-  font-size: 1em;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 1.75em;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 1.75em;
 }
 
 #banner .flex {
-  -ms-flex-pack: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto 4em auto;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 4em auto;
 }
 
 #banner .flex div {
-  border-right: 2px solid rgba(255, 255, 255, 0.2);
-  padding: 0 8em;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 0 8em;
 }
 
 #banner .flex div:last-child {
-  border: none;
-  padding-right: 0;
+    border: none;
+    padding-right: 0;
 }
 
 #banner .flex div:first-child {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 #banner .flex div p {
-  margin: 0;
+    margin: 0;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  #banner {
-    background-attachment: scroll;
-  }
+    #banner {
+        background-attachment: scroll;
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media screen and (max-width: 1680px) {
-  #banner .flex div {
-    padding: 0 6em;
-  }
+    #banner .flex div {
+        padding: 0 6em;
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media screen and (max-width: 1280px) {
-  #banner {
-    padding: 0em 0 6em 0;
-  }
-  #banner .inner {
-    padding-top: 6em;
-  }
-  #banner h1 {
-    font-size: 3em;
-  }
-  #banner h3 {
-    font-size: 1.25em;
-  }
-  #banner .flex div {
-    padding: 0 3em;
-  }
+    #banner {
+        padding: 0em 0 6em 0;
+    }
+    #banner .inner {
+        padding-top: 6em;
+    }
+    #banner h1 {
+        font-size: 3em;
+    }
+    #banner h3 {
+        font-size: 1.25em;
+    }
+    #banner .flex div {
+        padding: 0 3em;
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media screen and (max-width: 980px) {
-  #banner {
-    background-attachment: scroll;
-    padding: 0em 0 4em 0;
-  }
-  #banner .inner {
-    padding-top: 4em;
-  }
-  #banner h1 {
-    font-size: 2.5em;
-  }
-  #banner h3 {
-    font-size: 1.25em;
-  }
-  #banner .flex div {
-    font-size: .85em;
-    padding: 0 1.5em;
-  }
+    #banner {
+        background-attachment: scroll;
+        padding: 0em 0 4em 0;
+    }
+    #banner .inner {
+        padding-top: 4em;
+    }
+    #banner h1 {
+        font-size: 2.5em;
+    }
+    #banner h3 {
+        font-size: 1.25em;
+    }
+    #banner .flex div {
+        font-size: .85em;
+        padding: 0 1.5em;
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media screen and (max-width: 736px) {
-  #banner {
-    padding: 0em 0 3em 0;
-  }
-  #banner .inner {
-    padding-top: 3em;
-  }
-  #banner h1 {
-    font-size: 2em;
-  }
-  #banner h3 {
-    font-size: 1.25em;
-  }
-  #banner .flex {
-    -moz-flex-direction: column;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin: 0 auto 2em auto;
-  }
-  #banner .flex div {
-    font-size: .85em;
-    padding: 0;
-    border: none;
-    margin-bottom: 1em;
-  }
+    #banner {
+        padding: 0em 0 3em 0;
+    }
+    #banner .inner {
+        padding-top: 3em;
+    }
+    #banner h1 {
+        font-size: 2em;
+    }
+    #banner h3 {
+        font-size: 1.25em;
+    }
+    #banner .flex {
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0 auto 2em auto;
+    }
+    #banner .flex div {
+        font-size: .85em;
+        padding: 0;
+        border: none;
+        margin-bottom: 1em;
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
-  #banner h1 {
-    font-size: 1.5em;
-  }
+    #banner h1 {
+        font-size: 1.5em;
+    }
+    body {
+        zoom: 100%;
+    }
 }
+
 
 /* footer */
 
 .site-footer {
-  background-color: black;
-  padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  color: white;
+    background-color: black;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
 }
 
 .site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5
+    border-top-color: #bbb;
+    opacity: 0.5
 }
 
 .site-footer hr.small {
-  margin: 20px 0
+    margin: 20px 0
 }
 
 .site-footer h6 {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
 }
 
 .site-footer a {
-  color: #737373;
+    color: #737373;
 }
 
 .site-footer a:hover {
-  color: #3366cc;
-  text-decoration: none;
+    color: #3366cc;
+    text-decoration: none;
 }
 
 .footer-links {
-  padding-left: 0;
-  list-style: none
+    padding-left: 0;
+    list-style: none
 }
 
 .footer-links li {
-  display: block
+    display: block
 }
 
 .footer-links a {
-  color: #737373
+    color: #737373
 }
 
-.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
-  color: #3366cc;
-  text-decoration: none;
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
 }
 
 .footer-links.inline li {
-  display: inline-block
+    display: inline-block
 }
 
 .site-footer .social-icons {
-  text-align: right
+    text-align: right
 }
 
 .site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #000000
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #000000
 }
 
 .copyright-text {
-  margin: 0
+    margin: 0
 }
 
 @media (max-width:991px) {
-  .site-footer [class^=col-] {
-    margin-bottom: 30px
-  }
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media (max-width:767px) {
-  .site-footer {
-    padding-bottom: 0
-  }
-  .site-footer .copyright-text, .site-footer .social-icons {
-    text-align: center
-  }
+    .site-footer {
+        padding-bottom: 0
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 .social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
 }
 
 .social-icons li {
-  display: inline-block;
-  margin-bottom: 4px
+    display: inline-block;
+    margin-bottom: 4px
 }
 
 .social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 13px
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px
 }
 
 .social-icons a {
-  background-color: #474242;
-  color: #fdfdfd;
-  font-size: 16px;
-  display: inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear
+    background-color: #474242;
+    color: #fdfdfd;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
 }
 
-.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
 }
 
 .social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
 }
 
 .social-icons a.facebook:hover {
-  background-color: #3b5998
+    background-color: #3b5998
 }
 
 .social-icons a.twitter:hover {
-  background-color: #00aced
+    background-color: #00aced
 }
 
 .social-icons a.linkedin:hover {
-  background-color: #007bb6
+    background-color: #007bb6
 }
 
 .social-icons a.dribbble:hover {
-  background-color: #ea4c89
+    background-color: #ea4c89
 }
 
 @media (max-width:767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600
-  }
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+    body {
+        zoom: 100%;
+    }
 }
 
 @media only screen and (max-height: 500px) {
-  .homesec h1 {
-    font-size: 6vh;
-  }
-  .homesec h2 {
-    font-size: 15px;
-  }
-  .homesec h5 {
-    font-size: 14px;
-  }
-  .homesec a {
-    font-size: 3.5vh;
-  }
-  .vere h1 {
-    font-size: 6vh;
-  }
-  .helpus h2 {
-    font-size: 6vh;
-  }
-  .helpus .p, .vare .p {
-    font-size: medium;
-  }
-  .respons {
-    padding: 20px;
-    background-color: whitesmoke;
-  }
+    .homesec h1 {
+        font-size: 6vh;
+    }
+    .homesec h2 {
+        font-size: 15px;
+    }
+    .homesec h5 {
+        font-size: 14px;
+    }
+    .homesec a {
+        font-size: 3.5vh;
+    }
+    .vere h1 {
+        font-size: 6vh;
+    }
+    .helpus h2 {
+        font-size: 6vh;
+    }
+    .helpus .p,
+    .vare .p {
+        font-size: medium;
+    }
+    .respons {
+        padding: 20px;
+        background-color: whitesmoke;
+    }
+    body {
+        zoom: 100%;
+    }
 }
