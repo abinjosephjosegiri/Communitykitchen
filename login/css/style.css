@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 4%, rgba(204, 204, 204, 1) 49%, rgba(0, 0, 0, 1) 91%);
+    zoom: 125%;
 }
 
 .page-content {
@@ -356,7 +357,7 @@ p.text-1 {
 
 #bet-register {
     border-radius: 20px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #001fff;
     background-color: black;
     color: #FFFFFF;
     font-size: 12px;
@@ -369,8 +370,8 @@ p.text-1 {
 
 #bet-login {
     border-radius: 20px;
-    border: 2px solid #FFFFFF;
-    background-color: #FFFFFF;
+    border: 2px solid #ce00a1;
+    background-color: #958585;
     color: rgb(0, 0, 0);
     font-size: 14px;
     margin-top: 30px;
