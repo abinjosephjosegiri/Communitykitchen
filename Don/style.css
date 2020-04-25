@@ -19,6 +19,7 @@ div#envelope {
 form {
     width: 70%;
     margin: 4% 15%;
+    color: white;
 }
 
 header {
@@ -30,4 +31,9 @@ header {
     margin-bottom: -8px;
     border-radius: 10px 10px 0 0;
     color: darkblue;
+}
+#submit{
+    width: 50px;
+    height: 30px;
+    align-content: center;
 }
